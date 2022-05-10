@@ -33,3 +33,7 @@
 - */2 * * * * ( 2 minuts cheking repository)
 - Save
 - scr\main\webapp| index.jsp changed " Hello, Midguard!  "
+- comint and push
+- cheking site " http://54.90.114.227:8090/webapp/ "
+
+# Phase 1 Completed
