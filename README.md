@@ -37,3 +37,8 @@
 - cheking site " http://54.90.114.227:8090/webapp/ "
 
 # Phase 1 Completed
+
+# Phase 2
+
+- Setup Ansible server and add inventory file Tomcat server ip
+
