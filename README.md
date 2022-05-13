@@ -57,3 +57,6 @@
 - Remote directory " //opt//playbooks "
 - Ann new task Send files or execute command over SSH
 - Exec Command " ansible-playbook /opt/playbooks/copyfile.yml "
+ddd
+
+
