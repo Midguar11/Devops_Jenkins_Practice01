@@ -40,5 +40,20 @@
 
 # Phase 2
 
-- Setup Ansible server and add inventory file Tomcat server ip
-
+- Setup Ansible server and add hosts file Tomcat server ip
+- setup Ansbile controller acces to Jenkins and Tomcat
+- writ new playbok Ansible control /opt/playbook/copyfile.yml
+- Dashboard / ManageJenkins / configuration / SSH
+- Safe method to ADD beacause dierctli add ssh key not safty
+- Setup Name (only reference)
+- Setup hostname or ip, username and password ( Ansible server)
+- click to test fonfugration, if message from Jenkins " Succes ". Setup is done.
+-  Save
+- Back Jenkins select the jobs "Hello-world"
+- configuaration
+- Remove Post-build Actions
+- Post Steps select " Send files or execute command over SSH "
+- Source files: " webapp/target/*.war "
+- Remote directory " //opt//playbooks "
+- Ann new task Send files or execute command over SSH
+- Exec Command " ansible-playbook /opt/playbooks/copyfile.yml "
